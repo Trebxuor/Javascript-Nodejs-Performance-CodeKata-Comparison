@@ -1,0 +1,15 @@
+{
+  "name": "generativekataperformance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "testMode=faster mocha --timeout 100000",
+    "test-slow": "testMode=slow mocha --timeout 100000"
+  },
+  "author": "Trebxuor",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
